@@ -14,7 +14,7 @@
 }
 
 /* first section */
-.firstSection {
+.firstSection, footer {
     background: #1F2939;
     
 }
@@ -126,7 +126,7 @@ figure figcaption {
 /* forth section */
 
 .forthSection {
-    padding: 100px;
+    padding: 120px;
 }
 .lastContainer {
     padding: 50px;
@@ -148,4 +148,14 @@ figure figcaption {
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
+}
+/* footer */
+footer {
+padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer p {
+    color: white;
 }
