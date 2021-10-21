@@ -89,7 +89,7 @@ figure img {
 
 }
 figure figcaption {
-    width: 200px;
+    max-width: 200px;
 }
 .secondSection h1 {
     font-size: 36px; 
