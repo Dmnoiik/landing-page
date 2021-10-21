@@ -7,6 +7,11 @@
     margin-right: 15%;  /* main wrapper */ 
     margin-left: 15%;
 }
+.wrapper2 {
+    margin-right: 20%;  /* main wrapper */ 
+    margin-left: 20%;
+    border:
+}
 /* first section */
 .firstSection {
     background: #1F2939;
@@ -29,7 +34,7 @@ h5 {
     font-size: 24px;
     color: #f9faf8
 }
-a:link, .leftSide p {
+a:link, .leftSide p, a:visited {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -61,5 +66,85 @@ a:link, .leftSide p {
     border-radius: 5px;
     width: 100px;
     font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+/* Second section */
+.secondSection{
+    padding: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+.secondSection .wrapper2  {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+figure img {
+    border-radius: 20px;
+
+}
+figure figcaption {
+    width: 200px;
+}
+.secondSection h1 {
+    font-size: 36px; 
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 70px;
+}
+
+/* Third section */ 
+
+.thirdSection {
+    background-color: #E5E7EB;
+    padding: 30px;
+}
+.thirdSection figure {
+    display: flex;
+    padding: 70px;
+    flex-flow: column wrap;
+}
+blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+figure figcaption {
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    font-weight: 600;
+    width: 100%;
+}
+
+/* forth section */
+
+.forthSection {
+    padding: 100px;
+}
+.lastContainer {
+    padding: 50px;
+    background-color: rgb(81, 70, 185);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-flow: column wrap; */
+}
+.leftSideLast {
+    margin-left: 50px;
+    color: white;
+}
+.lastContainer button {
+    background-color: rgb(81, 70, 185);
+    width: 120px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
     padding: 5px;
 }
