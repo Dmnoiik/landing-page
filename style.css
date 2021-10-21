@@ -89,7 +89,7 @@ figure img {
 
 }
 figure figcaption {
-    max-width: 200px;
+    width: 200px;
 }
 .secondSection h1 {
     font-size: 36px; 
@@ -126,7 +126,7 @@ figure figcaption {
 /* forth section */
 
 .forthSection {
-    padding: 120px;
+    padding: 100px;
 }
 .lastContainer {
     padding: 50px;
